@@ -1,45 +1,96 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Résumé
+description: resume
+header: Post Tags
+group: navigation
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+|-------------------------------|------------------|
+|
+|-------------------------------|------------------|
+| **{{ site.author.name }}**{: style="font-size: 16px"}<br/>*Frontend Web Developer*
+|-------------------------------|------------------|
 
-## Update Author Attributes
+<br/>
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+## Personal details
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+|------------------|----------------------------|
+|
+|------------------|----------------------------|
+| **Name:**        | {{ site.author.name }}
+|------------------|----------------------------|
+| **Gender:**      | Female
+|------------------|----------------------------|
+| **Nationality:** | Mexican
+|------------------|----------------------------|
+| **Date of Birth:** | August 1st, 1989
+|------------------|----------------------------|
+| **Twitter:**     | [@{{ site.author.twitter }}](http://twitter.com/{{ site.author.twitter }}){:target="_blank"}
+|------------------|----------------------------|
+| **GitHub:**      | [{{ site.author.github }}](http://github.com/{{ site.author.github }}){:target="_blank"}
+|------------------|----------------------------|
+| **Skype:**       | [{{ site.author.skype }}](skype:{{ site.author.skype }}){:target="_blank"}
+|------------------|----------------------------|
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+---------
 
-    $ rm -rf _posts/core-samples
+## IT Abilities & Skills
 
-Here's a sample "posts list".
+|-------------------------------+----------------------------------------------|
+|
+|-------------------------------|----------------------------------------------|
+| **Programming Languages:**    | Python (2 years), Javascript (2 years), CoffeeScript (1 year), PHP (1 year), C# (1 year), Java (1 year), C (1 year)
+|-------------------------------|----------------------------------------------|
+| **Technologies:**             | jQuery, Django, CSS/Sass/Compass, NodeJS, Backbone, REST, Celery,
+|                               | Handlebars, RequireJS, Pusher, AWS, [Vagrant](http://www.vagrantup.com/){:target="_blank"}
+|-------------------------------|----------------------------------------------|
+| **Abilities:**                | UI/UX, Code review
+|-------------------------------|----------------------------------------------|
+| **Databases:**                | PostgreSQL, MySQL, SQLite
+|-------------------------------|----------------------------------------------|
+| **Operating Systems:**        | OSX, Linux
+|-------------------------------|----------------------------------------------|
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+---------
 
-## To-Do
+## University Education
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/dbtek/jekyll-bootstrap-3)!
+|------------------------------------+----------------------------------------------|
+|
+|------------------------------------|----------------------------------------------|
+| **June 2007 to December 2012**         | Computer Systems Engineering BA, [Instituto Tecnológico de Morelia](http://www.itmorelia.edu.mx/){:target="_blank"}.
+|------------------------------------|----------------------------------------------|
 
+---------
+
+## Employment History
+
+|------------------------------------+----------------------------------------------|
+|
+|------------------------------------|----------------------------------------------|
+| **Web Developer, QA & DBA**        | [WebDCG](http://webdcg.com){:target="_blank"}
+| November 2010 - October 2012        | Was part of a development team working on a Django/Python software.
+|------------------------------------|----------------------------------------------|
+
+---------
+
+## Other Experience
+
+|------------------------------------+----------------------------------------------|
+|
+|------------------------------------|----------------------------------------------|
+| **Unity3D**             |   *Augmented Reality/Speech Recognition project.*
+|                        |    <http://unity3d.com/>{:target="_blank"}
+|                        |    <http://cmusphinx.sourceforge.net/>{:target="_blank"}
+|------------------------------------|----------------------------------------------|
+
+---------
+
+## Interests
+
+Programming Languages, Web 2.0, 3D Graphics, Continuous Improvement.
 
