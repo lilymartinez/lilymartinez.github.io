@@ -4,6 +4,7 @@ title: Résumé
 description: resume
 header: Post Tags
 group: navigation
+icon: fa-bookmark
 ---
 {% include JB/setup %}
 

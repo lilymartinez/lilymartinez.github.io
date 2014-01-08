@@ -61,7 +61,7 @@
              {% for node in pages_list %}
                 {% if node.title != null %}
                   {% if group == null or group == node.group %}
-                      <li><a href="{{ BASE_PATH }}{{node.url}}"><i class="fa fa-bookmark" style="color: #0975B6"></i> {{node.title}}</a></li>
+                      <li><a href="{{ BASE_PATH }}{{node.url}}"><i class="fa {{node.icon}}" style="color: #0975B6"></i> {{node.title}}</a></li>
                   {% endif %}
                 {% endif %}
             {% endfor %}
