@@ -44,7 +44,7 @@ icon: fa-bookmark
 |-------------------------------+----------------------------------------------|
 |
 |-------------------------------|----------------------------------------------|
-| **Programming Languages:**    | Python (2 years), Javascript (2 years), CoffeeScript (1 year), PHP (1 year), C# (1 year), Java (1 year), C (1 year)
+| **Programming Languages:**    | Python (3 years), Javascript (3 years), CoffeeScript (1 year), PHP (1 year), C# (1 year), Java (1 year), C (1 year)
 |-------------------------------|----------------------------------------------|
 | **Technologies:**             | jQuery, Django, CSS/Sass/Compass, NodeJS, Backbone, REST, Celery,
 |                               | Handlebars, RequireJS, Pusher, AWS, [Vagrant](http://www.vagrantup.com/){:target="_blank"}
